@@ -1,0 +1,7 @@
+.product-emoji { font-size: 3.5rem; line-height: 1; }
+.product-emoji-lg { font-size: 7rem; line-height: 1; }
+.product-card { transition: box-shadow .15s ease; }
+.product-card:hover { box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12); }
+.qty-input { width: 5.5rem; }
+.step-dot { width: 2rem; height: 2rem; }
+.cursor-pointer { cursor: pointer; }

@@ -1,0 +1,19 @@
+{
+  "name": "tienda-en-linea",
+  "version": "1.0.0",
+  "description": "Tienda en línea sencilla: Electron + Bootstrap + Python/SQLite (el pago aún no está disponible)",
+  "main": "src/main/main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "npm run test:js && npm run test:py",
+    "test:js": "node --test",
+    "test:py": "python -m unittest discover -s backend/tests -t backend -v"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
